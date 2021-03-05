@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>year</title>
+                <link rel="stylesheet" href="index.css">
+                <link rel="stylesheet" href="swiper.min.css">
+        </meta>
+    </head>
+    <body>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                        <h3>2nd Year</h3>
+                        </div>
+                        <div className="content">
+                        <p>you are in 2nd year, so please choose this option</p>
+                        <a href="#">Enter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                        <h3>3rd Year</h3>
+                        </div>
+                        <div className="content">
+                        <p>you are in 3rd year, so please choose this option</p>
+                        <a href="#">Enter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                        <h3>4th Year</h3>
+                        </div>
+                        <div className="content">
+                        <p>you are in 4th year, so please choose this option</p>
+                        <a href="#">Enter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="swiper.min.js"></script>
+        <script>
+            var swiper=new Swiper('.swiper-container',{
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerview: 'auto',
+                coverflowEffect: {
+                    rotate: 30,
+                    strech: 0,
+                    depth: 200,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination:{
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+    </body>
+</html>
